@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/daviijose/habitart_front.git/static/css/main.630832ad.css",
+    "main.js": "/daviijose/habitart_front.git/static/js/main.2adfc69c.js",
+    "static/media/artesanato.png": "/daviijose/habitart_front.git/static/media/artesanato.084c06e02e882ffd65a1.png",
+    "static/media/chicoscience.png": "/daviijose/habitart_front.git/static/media/chicoscience.dc4190f3ef95719c3ca8.png",
+    "static/media/frutas.png": "/daviijose/habitart_front.git/static/media/frutas.25d0b343fd868ef12a97.png",
+    "static/media/chico.jpg": "/daviijose/habitart_front.git/static/media/chico.c6ceed5c989b119103ac.jpg",
+    "static/media/icon.png": "/daviijose/habitart_front.git/static/media/icon.8e8dddfa9aeb4e140ad3.png",
+    "static/media/frevo.png": "/daviijose/habitart_front.git/static/media/frevo.ad3038e457aebdf30c20.png",
+    "static/media/abrilprorock.jpg": "/daviijose/habitart_front.git/static/media/abrilprorock.297b262a2df35b3cd10a.jpg",
+    "static/media/siba.jpg": "/daviijose/habitart_front.git/static/media/siba.739ae2df726f4ef51fbb.jpg",
+    "static/media/locationicon.png": "/daviijose/habitart_front.git/static/media/locationicon.4833426b181754d82ae5.png",
+    "static/media/odiosa.jpg": "/daviijose/habitart_front.git/static/media/odiosa.67ef7fdaf5da7b2ba21b.jpg",
+    "static/media/logo.png": "/daviijose/habitart_front.git/static/media/logo.0e9a672b3b1865980a26.png",
+    "static/media/whatsapplogo.png": "/daviijose/habitart_front.git/static/media/whatsapplogo.99d90744f51565ee1c03.png",
+    "static/media/devotosicone.jpg": "/daviijose/habitart_front.git/static/media/devotosicone.cb8a2134cad664ad0910.jpg",
+    "static/media/twitterlogo.png": "/daviijose/habitart_front.git/static/media/twitterlogo.630bbf9282464f40b892.png",
+    "static/media/logouticon.png": "/daviijose/habitart_front.git/static/media/logouticon.3ab93e7286073e7500dc.png",
+    "index.html": "/daviijose/habitart_front.git/index.html",
+    "main.630832ad.css.map": "/daviijose/habitart_front.git/static/css/main.630832ad.css.map",
+    "main.2adfc69c.js.map": "/daviijose/habitart_front.git/static/js/main.2adfc69c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.630832ad.css",
+    "static/js/main.2adfc69c.js"
+  ]
+}
