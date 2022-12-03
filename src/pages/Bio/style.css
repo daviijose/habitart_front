@@ -1,0 +1,105 @@
+.container-master-perfil{
+    display: flex;
+    justify-content: baseline;
+    align-items: column;
+    background-color: rgb(255, 245, 227);
+    height:  1000px ;
+    width: auto;
+   
+   
+}
+.bio_master{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 90%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+    
+
+     
+}
+
+.text_bio{
+    width: 57%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 159, 39);
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    border: solid rgb(46, 46, 46);  
+ 
+}
+
+.text_bio h3 {
+    margin: 5%;
+}
+
+.lapis{
+    padding-right: 90%;
+    padding-bottom: 2%;
+}
+
+.barra-lateral{
+   width: 400px;
+    height: 50vw;
+    background-color: grey;
+    padding: 20px;
+    border-bottom-right-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 3.0em;
+}
+
+.sugest_user{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    
+    width: 12%;
+    height: 50%;
+    margin-right: 3%;
+    margin-top: 7%;
+    border-radius: 24px;
+
+}
+
+.logout{
+    display: flex;
+    align-items: center;
+    line-height: 3.0em;
+
+    
+}
+
+.redes_bio{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(224, 159, 39);
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 24px;
+    border: solid rgb(46, 46, 46); 
+    margin-top: 40px;
+    width: 40%;
+    height: 13%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction:row;
+    align-items: center;
+}
+.router-text{
+    color: black;
+}

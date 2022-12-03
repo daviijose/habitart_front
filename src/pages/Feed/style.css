@@ -1,0 +1,14 @@
+
+.feed_post{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    padding: 20px;
+    
+    
+}
+
+.Master{
+    display: flex;
+}

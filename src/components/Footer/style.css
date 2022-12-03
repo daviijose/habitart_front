@@ -1,0 +1,43 @@
+.footer-page{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    background-color: rgb(70, 64, 54);
+    
+   
+}
+.text-about{
+    width: 50%;
+    margin: 30px;
+    font-size: 20px;
+    line-height: 1.2;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.content-footer{
+    display: flex;
+    flex-direction: column;
+}
+.redes{
+    
+    width: 20%;
+    height: 4%;
+    margin: 20px;
+}
+
+.link-rede-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+
+}
+.content-contact{
+    color: white;
+}

@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(241,239,165);
+}
+
+p {
+    font-size: 30px;
+}
+
+.container-login {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.wrap-login {
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 70px 50px 33px 50px;
+    box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+    width: 100%;
+}
+
+.login-form-title {
+    display: block;
+    font-size: 37px;
+    color: black;
+    line-height: 1.2;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.wrap-input {
+    width: 100%;
+    position: relative;
+    margin-bottom: 37px;
+}
+
+.input {
+    font-size: 15px;
+    color: black;
+    line-height: 1.2;
+    border: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+
+    background-color: rgb(241,239,165);
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+.focus-input {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+
+    pointer-events: none;
+    color: black;
+}
+
+.focus-input::after {
+    font-size: 14px;
+    color: black;
+    line-height: 1.2;
+
+    content: attr(data-placeholder);
+
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 16px;
+    left: 0px;
+    padding-left: 5px;
+}
+
+.input:focus {
+    outline: 0;
+}
+
+.input:focus + .focus-input::after {
+    top: 2px;
+    font-size: 10px;
+}
+
+.input:focus + .focus-input::before {
+    width: 100%;
+}
+
+.has-val + .focus-input::after {
+    top: 2px;
+    font-size: 10px;
+}
+
+.has-val + .focus-input::before {
+    width: 100%;
+}
+
+.log-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+}
+
+.log {
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+
+    line-height: 1.2;
+
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 40px;
+    background-color: rgb(160, 159, 159);
+}
+
+.log:hover {
+    cursor: pointer;
+}
+
+.text-forget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.forget {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cad-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 13px;
+    margin-top: 20px;
+}
+
+.cad {
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+
+    line-height: 1.2;
+
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 40px;
+    background-color: rgb(160, 159, 159);
+}
+
+.cad:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.midle {
+    height: 800px;
+    display: flex;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.img-master {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 750px;
+    height: 750px;
+    
+}
+.img {
+    
+    border-radius: 24px;
+    width: 300px;
+    height: 300px;
+    filter: drop-shadow(2px 3px 10px rgb(250, 174, 4));
+    margin-left: auto;
+   
+}
+.texto{
+    margin-left: 100%;  
+    
+}
+.text-master{
+    width: 325px;
+    color: rgb(23, 30, 41);
+    border-radius: 20px solid;
+    border-color: black;
+    margin-left: 20%;
+}

@@ -1,0 +1,90 @@
+.container-master{
+    display: flex;
+    justify-content: baseline;
+    align-items: column;
+    background-color: rgb(255, 245, 227);
+    height: 1000px;
+   
+   
+}
+.barra-lateral{
+    width: 15%;
+    height: 42vw;
+    background-color: grey;
+    padding: 20px;
+    border-bottom-right-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    line-height: 3.0em;
+}
+
+.icone_artista{
+    border-radius:50%;
+}
+
+.logout{
+    margin: 0;
+    font-size: 30px;
+    flex-direction: row;
+    
+}
+.post-master-eventos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+
+    
+}
+.post-eventos{
+    background-color: gray;
+    height: 90%;
+    width: 1200px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-around;
+
+   /* align-items: center; */
+}
+.icon-square{
+    display: flex;
+    margin-top:0px;
+    
+    
+    width: 200px;
+    border-radius: 24px;
+    flex-direction: column;
+    height: 150px;
+
+}
+.location{
+    margin-top: 95px;
+    
+}
+.buton{
+    margin-top: 160px;
+    color: black;
+    background-color: white;
+    border-radius: 24px;
+    height: 30%;
+    width: 110%;
+    box-shadow: 0 5px 10px 0;
+    
+}
+.buton p{
+    justify-content: center;
+    
+    
+}
+.sugest_user{
+    margin-left: 5%;
+}
+.name-post{
+    color: white;
+    
+}
+.router-text{
+    color: black;
+}

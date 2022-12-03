@@ -1,24 +1,34 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Login from './pages/Login';
+import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import Homepage from './pages/Homepage';
+import Perfil_mscs from './pages/Perfil_mscs'
+import Perfil_desenhistas from './pages/Perfil_desenhistas'
+import Cadastro from './pages/Cadastro';
+import Bio from './pages/Bio';
+import Eventos from './pages/Eventos';
+import ContCad from './pages/ContCadastro';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <dev>
+      <BrowserRouter>
+        <Routes>
+         <Route path="/" element={<Homepage/>}/> 
+         <Route path="/login" element ={<Login/>}/>
+         <Route path ="/Perfil_mscs" element={<Perfil_mscs/>}/>
+         
+          <Route path ="/Cadastro" element={<Cadastro/>}/>
+          <Route path ="/Perfil_desenhistas" element={<Perfil_desenhistas/>}/>
+          <Route path ="/Bio" element={<Bio/>}/>
+          <Route path="/Eventos" element= {<Eventos/>}/>    
+          <Route path ="/ContCadastro" element={<ContCad/>}/>
+        </Routes>
+      </BrowserRouter>
+    </dev>
+
   );
 }
 
